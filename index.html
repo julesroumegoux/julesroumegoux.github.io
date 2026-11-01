@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jules Roumegoux – ePortfolio</title>
+  <meta name="description" content="ePortfolio of Jules Roumegoux, engineering student in Digital Sciences at ENSEEIHT (Toulouse INP).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#welcome">Jules <span>Roumegoux</span></a>
+    <nav class="nav" id="nav">
+      <a href="#welcome"><span class="en">Welcome</span><span class="fr">Accueil</span></a>
+      <a href="#engineering"><span class="en">Engineering</span><span class="fr">Parcours</span></a>
+      <a href="#mobility"><span class="en">Mobility</span><span class="fr">Mobilité</span></a>
+      <a href="#engagement"><span class="en">Engagement</span><span class="fr">Engagement</span></a>
+      <a href="#sport"><span class="en">Sport</span><span class="fr">Sport</span></a>
+      <a href="#career"><span class="en">Career</span><span class="fr">Projet pro</span></a>
+    </nav>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="fr">FR</button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ================= WELCOME ================= -->
+  <section class="page" id="page-welcome">
+    <div class="hero">
+      <div style="position:relative;z-index:1">
+        <p class="eyebrow" style="color:#f3b47a">ePortfolio</p>
+        <h1>Jules<br>Roumegoux</h1>
+        <p class="role">
+          <span class="en">Engineering student – Digital Sciences · ENSEEIHT (Toulouse INP)</span>
+          <span class="fr">Étudiant ingénieur – Sciences du numérique · ENSEEIHT (Toulouse INP)</span>
+        </p>
+        <p class="uvp">
+          <span class="en">I see code as a tool, not an end: what drives me is turning data into decisions, and explaining them clearly to the people who need them.</span>
+          <span class="fr">Pour moi, le code est un outil, pas une fin : ce qui me motive, c'est de transformer les données en décisions, et de les expliquer clairement à ceux qui en ont besoin.</span>
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary en" href="assets/docs/CV_Jules_Roumegoux_EN.pdf" target="_blank">📄 CV (English)</a>
+          <a class="btn btn-primary fr" href="assets/docs/CV_Jules_Roumegoux_FR.pdf" target="_blank">📄 CV (français)</a>
+          <a class="btn btn-ghost en" href="assets/docs/CV_Jules_Roumegoux_FR.pdf" target="_blank">CV (French)</a>
+          <a class="btn btn-ghost fr" href="assets/docs/CV_Jules_Roumegoux_EN.pdf" target="_blank">CV (anglais)</a>
+          <a class="btn btn-ghost" href="#" id="linkedin-link" title="LinkedIn – coming soon">in LinkedIn</a>
+          <a class="btn btn-ghost" href="mailto:julesroum7@gmail.com">✉️ Contact</a>
+        </div>
+      </div>
+      <div class="photo" id="photo">
+        <!-- Replace with: <img src="assets/photo.jpg" alt="Jules Roumegoux"> -->
+        <span><span class="en">Professional photo<br>coming soon</span><span class="fr">Photo professionnelle<br>à venir</span></span>
+      </div>
+    </div>
+
+    <div class="stats card" style="margin-top:20px">
+      <div class="stat"><strong>12</strong><span class="en">years of rugby</span><span class="fr">ans de rugby</span></div>
+      <div class="stat"><strong>4</strong><span class="en">languages</span><span class="fr">langues</span></div>
+      <div class="stat"><strong>C1</strong><span class="en">English level</span><span class="fr">niveau d'anglais</span></div>
+      <div class="stat"><strong>3</strong><span class="en">years of prépa (PC)</span><span class="fr">ans de prépa PC</span></div>
+    </div>
+
+    <h2><span class="en">About me</span><span class="fr">À propos</span></h2>
+    <div class="card">
+      <p class="en">I am a first-year engineering student in Digital Sciences at ENSEEIHT (Toulouse INP), after three years of intensive preparatory classes in physics and chemistry. Alongside my studies, I tutor final-year high school students in maths through my own micro-business and work at Carrefour City. A rugby player for 12 years, including 3 seasons at elite level with Stade Toulousain, I have learned discipline, resilience and team spirit.</p>
+      <p class="fr">Je suis en 1re année du cycle ingénieur Sciences du numérique à l'ENSEEIHT (Toulouse INP), après trois années de classe préparatoire PC. En parallèle de mes études, je donne des cours particuliers de mathématiques à des élèves de Terminale via ma micro-entreprise et je travaille chez Carrefour City. Joueur de rugby depuis 12 ans, dont 3 saisons à haut niveau au Stade Toulousain, j'y ai appris la discipline, la résilience et l'esprit d'équipe.</p>
+      <p class="en" style="margin-top:10px">I am drawn to data and AI careers on the analytical, advisory and project side, and I would like to work in a Nordic country in the future.</p>
+      <p class="fr" style="margin-top:10px">Je m'oriente vers les métiers de la data et de l'IA, côté analyse, conseil et gestion de projet, et j'aimerais à terme travailler dans un pays nordique.</p>
+    </div>
+
+    <h2><span class="en">What I bring</span><span class="fr">Ce que j'apporte</span></h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <div class="icon">📊</div>
+        <h3><span class="en">Analytical mindset</span><span class="fr">Esprit analytique</span></h3>
+        <p class="en">A strong maths and science background built in prépa, now applied to data and digital sciences.</p>
+        <p class="fr">Un solide bagage en maths et en sciences acquis en prépa, mis au service de la data et du numérique.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎓</div>
+        <h3><span class="en">Teaching &amp; communication</span><span class="fr">Pédagogie &amp; communication</span></h3>
+        <p class="en">Explaining complex ideas simply, every week, to the students I tutor.</p>
+        <p class="fr">Expliquer simplement des notions complexes, chaque semaine, aux élèves que j'accompagne.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏉</div>
+        <h3><span class="en">Team spirit &amp; resilience</span><span class="fr">Esprit d'équipe &amp; résilience</span></h3>
+        <p class="en">12 years of rugby: commitment, composure under pressure and collective play.</p>
+        <p class="fr">12 ans de rugby : engagement, sang-froid sous pression et jeu collectif.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ENGINEERING COURSE ================= -->
+  <section class="page" id="page-engineering">
+    <div class="page-head">
+      <p class="eyebrow"><span class="en">Engineering course</span><span class="fr">Parcours ingénieur</span></p>
+      <h1><span class="en">My academic path</span><span class="fr">Mon parcours académique</span></h1>
+      <p><span class="en">From a scientific baccalaureate to the Digital Sciences engineering programme at ENSEEIHT.</span><span class="fr">Du baccalauréat scientifique au cycle ingénieur Sciences du numérique de l'ENSEEIHT.</span></p>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item card">
+        <p class="meta"><span class="en">2026 – present</span><span class="fr">2026 – aujourd'hui</span></p>
+        <h3><span class="en">Engineering degree – Digital Sciences</span><span class="fr">Cycle ingénieur – Sciences du numérique</span></h3>
+        <p>ENSEEIHT (Toulouse INP), Toulouse</p>
+      </div>
+      <div class="t-item card">
+        <p class="meta">2023 – 2026</p>
+        <h3><span class="en">Preparatory classes – Physics &amp; Chemistry (PC)</span><span class="fr">Classe préparatoire scientifique PC</span></h3>
+        <p>Lycée Déodat de Séverac, Toulouse</p>
+      </div>
+      <div class="t-item card">
+        <p class="meta">2023</p>
+        <h3><span class="en">French Baccalaureate – Maths and Physics-Chemistry majors</span><span class="fr">Baccalauréat général – spécialités maths et physique-chimie</span></h3>
+        <p>Lycée Saint-Sernin, Toulouse</p>
+      </div>
+    </div>
+
+    <h2><span class="en">Semester 5 courses</span><span class="fr">Enseignements du semestre 5</span></h2>
+    <div class="card">
+      <span class="tag navy"><span class="en">Control engineering</span><span class="fr">Automatique</span></span>
+      <span class="tag navy"><span class="en">Integration &amp; probability</span><span class="fr">Intégration et application – Probabilités</span></span>
+      <span class="tag navy"><span class="en">Modelling &amp; computer architecture</span><span class="fr">Modélisation – Architecture</span></span>
+      <span class="tag navy"><span class="en">Optimisation &amp; PDEs</span><span class="fr">Optimisation – EDP</span></span>
+      <span class="tag navy"><span class="en">Imperative programming (PIM)</span><span class="fr">Programmation impérative (PIM)</span></span>
+      <span class="tag navy"><span class="en">English</span><span class="fr">Anglais</span></span>
+      <span class="tag navy"><span class="en">Italian (2nd language)</span><span class="fr">Italien (LV2)</span></span>
+      <span class="tag navy"><span class="en">Careers &amp; Management (CAM)</span><span class="fr">Careers &amp; Management (CAM)</span></span>
+    </div>
+
+    <h2><span class="en">Projects &amp; productions</span><span class="fr">Projets &amp; réalisations</span></h2>
+    <div class="grid grid-2">
+      <div class="card placeholder">
+        <h3><span class="en">Academic projects</span><span class="fr">Projets académiques</span></h3>
+        <p class="en">My best engineering projects and productions will be showcased here throughout my studies.</p>
+        <p class="fr">Mes meilleurs projets et réalisations d'ingénieur seront présentés ici au fil de ma scolarité.</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+      <div class="card placeholder">
+        <h3><span class="en">Technical skills</span><span class="fr">Compétences techniques</span></h3>
+        <p class="en">Programming languages and tools learned at ENSEEIHT will be added as I progress.</p>
+        <p class="fr">Les langages et outils appris à l'ENSEEIHT seront ajoutés au fur et à mesure.</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INTERNATIONAL MOBILITY ================= -->
+  <section class="page" id="page-mobility">
+    <div class="page-head">
+      <p class="eyebrow"><span class="en">International mobility</span><span class="fr">Mobilité internationale</span></p>
+      <h1><span class="en">Going abroad</span><span class="fr">Partir à l'international</span></h1>
+      <p><span class="en">Three exchange or double-degree projects with ENSEEIHT partner universities, in order of preference, planned for the second semester of year 2 or the first semester of year 3.</span><span class="fr">Trois projets d'échange ou de double diplôme avec des universités partenaires de l'ENSEEIHT, par ordre de préférence, envisagés au second semestre de 2e année ou au premier semestre de 3e année.</span></p>
+    </div>
+
+    <div class="grid grid-3">
+      <div class="card plan">
+        <span class="rank">Plan A</span>
+        <img class="flag" src="https://flagcdn.com/w80/se.png" alt="" width="44">
+        <h3>Chalmers University of Technology</h3>
+        <p class="meta"><span class="en">Gothenburg, Sweden</span><span class="fr">Göteborg, Suède</span></p>
+        <p class="en">I would like to settle and work in a Nordic country in the future. Studying in Sweden would let me build a first network and experience in Scandinavia, in a culture known for its data-driven organisations and work-life balance.</p>
+        <p class="fr">J'aimerais à terme m'installer et travailler dans un pays nordique. Étudier en Suède me permettrait de construire un premier réseau et une première expérience en Scandinavie, dans une culture réputée pour ses organisations data-driven et son équilibre vie pro / vie perso.</p>
+      </div>
+      <div class="card plan">
+        <span class="rank">Plan B</span>
+        <img class="flag" src="https://flagcdn.com/w80/it.png" alt="" width="44">
+        <h3><span class="en">University of Milan</span><span class="fr">Université de Milan</span></h3>
+        <p class="meta"><span class="en">Milan, Italy</span><span class="fr">Milan, Italie</span></p>
+        <p class="en">Italian is my second foreign language at ENSEEIHT. Milan, Italy's economic capital, would let me strengthen it while discovering a dynamic European business and consulting environment.</p>
+        <p class="fr">L'italien est ma LV2 à l'ENSEEIHT. Milan, capitale économique du pays, me permettrait de le perfectionner tout en découvrant un environnement européen dynamique, tourné vers les affaires et le conseil.</p>
+      </div>
+      <div class="card plan">
+        <span class="rank">Plan C</span>
+        <img class="flag" src="https://flagcdn.com/w80/au.png" alt="" width="44">
+        <h3>University of Sydney</h3>
+        <p class="meta"><span class="en">Sydney, Australia</span><span class="fr">Sydney, Australie</span></p>
+        <p class="en">Full immersion in an English-speaking environment to perfect my English, and the chance to discover one of the most dynamic tech ecosystems in the Asia-Pacific region.</p>
+        <p class="fr">Une immersion totale dans un environnement anglophone pour perfectionner mon anglais, et l'occasion de découvrir l'un des écosystèmes tech les plus dynamiques de la zone Asie-Pacifique.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="en">🔗 These projects will be refined after my interviews with professionals (see <a href="#career">Career development</a>), so that each mobility clearly supports my career goals in data and AI.</span>
+      <span class="fr">🔗 Ces projets seront affinés après mes entretiens avec des professionnels (voir <a href="#career">Projet professionnel</a>), pour que chaque mobilité serve clairement mon projet dans la data et l'IA.</span>
+    </div>
+
+    <h2><span class="en">Languages</span><span class="fr">Langues</span></h2>
+    <div class="grid grid-3">
+      <div class="card"><h3><img class="mini-flag" src="https://flagcdn.com/w40/fr.png" alt="" width="22"> <span class="en">French</span><span class="fr">Français</span></h3><p><span class="en">Native</span><span class="fr">Langue maternelle</span></p></div>
+      <div class="card"><h3><img class="mini-flag" src="https://flagcdn.com/w40/gb.png" alt="" width="22"> <span class="en">English</span><span class="fr">Anglais</span></h3><p><span class="en">C1 – advanced</span><span class="fr">C1 – avancé</span></p></div>
+      <div class="card"><h3><img class="mini-flag" src="https://flagcdn.com/w40/es.png" alt="" width="22"> <span class="en">Spanish</span><span class="fr">Espagnol</span></h3><p><span class="en">B2 – upper-intermediate</span><span class="fr">B2 – intermédiaire avancé</span></p></div>
+      <div class="card"><h3><img class="mini-flag" src="https://flagcdn.com/w40/it.png" alt="" width="22"> <span class="en">Italian</span><span class="fr">Italien</span></h3><p><span class="en">Basic – currently learning (2nd language)</span><span class="fr">Notions – en apprentissage (LV2)</span></p></div>
+    </div>
+  </section>
+
+  <!-- ================= SUSTAINABILITY & CIVIC ENGAGEMENT ================= -->
+  <section class="page" id="page-engagement">
+    <div class="page-head">
+      <p class="eyebrow"><span class="en">Sustainability &amp; civic engagement</span><span class="fr">Engagement citoyen &amp; RSE</span></p>
+      <h1><span class="en">Giving back</span><span class="fr">S'engager pour les autres</span></h1>
+    </div>
+
+    <div class="grid grid-2">
+      <div class="card">
+        <div class="icon">🤝</div>
+        <p class="meta">2015 – 2020</p>
+        <h3><span class="en">Volunteer – Secours populaire (food aid charity)</span><span class="fr">Bénévole au Secours populaire</span></h3>
+        <p><span class="en">Gragnague centre, France</span><span class="fr">Centre de Gragnague</span></p>
+        <ul>
+          <li class="en">Took part for 5 years in food distribution, welcoming beneficiaries and fundraising</li>
+          <li class="fr">Participation pendant 5 ans à la distribution alimentaire, à l'accueil des bénéficiaires et aux collectes de fonds</li>
+          <li class="en">Developed active listening, empathy and adaptability with a diverse public</li>
+          <li class="fr">Développement de l'écoute, de la bienveillance et de l'adaptation face à un public varié</li>
+        </ul>
+      </div>
+      <div class="card">
+        <div class="icon">🛟</div>
+        <p class="meta">2023</p>
+        <h3><span class="en">BNSSA – French National Lifeguard Certificate</span><span class="fr">BNSSA – Brevet national de sécurité et de sauvetage aquatique</span></h3>
+        <p class="en">Trained in aquatic rescue and first aid: a commitment to the safety of others.</p>
+        <p class="fr">Formé au sauvetage aquatique et aux premiers secours : un engagement pour la sécurité des autres.</p>
+      </div>
+    </div>
+
+    <div class="card placeholder" style="margin-top:16px">
+      <h3><span class="en">Civic engagement at ENSEEIHT</span><span class="fr">Engagement citoyen à l'ENSEEIHT</span></h3>
+      <p class="en">My civic and sustainability commitments during my engineering studies will be documented here.</p>
+      <p class="fr">Mes engagements citoyens et RSE pendant mes études d'ingénieur seront présentés ici.</p>
+      <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+    </div>
+  </section>
+
+  <!-- ================= SPORT & ACTIVITIES ================= -->
+  <section class="page" id="page-sport">
+    <div class="page-head">
+      <p class="eyebrow"><span class="en">Sport &amp; other activities</span><span class="fr">Sport &amp; activités</span></p>
+      <h1><span class="en">Beyond the classroom</span><span class="fr">Au-delà des cours</span></h1>
+    </div>
+
+    <div class="card">
+      <div class="icon">🏉</div>
+      <p class="meta"><span class="en">2010 – 2022, resumed in 2026</span><span class="fr">2010 – 2022, reprise en 2026</span></p>
+      <h3><span class="en">Rugby – 12 years of practice, including 3 at elite level</span><span class="fr">Rugby – 12 ans de pratique, dont 3 à haut niveau</span></h3>
+      <p>Verfeil · Stade Toulousain · Toulouse INP Rugby Team</p>
+      <ul>
+        <li class="en">Played 3 seasons at elite level with Stade Toulousain, balancing intensive training and competition with school</li>
+        <li class="fr">3 saisons à haut niveau au Stade Toulousain, en menant de front entraînements intensifs, compétition et scolarité</li>
+        <li class="en">Returned to the game in 2026 with the Toulouse INP Rugby Team, alongside my engineering studies</li>
+        <li class="fr">Reprise en 2026 avec la Toulouse INP Rugby Team, en parallèle du cycle ingénieur</li>
+        <li class="en">What it taught me: discipline, composure under pressure and team spirit</li>
+        <li class="fr">Ce que ça m'a appris : discipline, gestion de la pression et esprit collectif</li>
+      </ul>
+    </div>
+
+    <h2><span class="en">Other activities</span><span class="fr">Autres activités</span></h2>
+    <div class="grid grid-3">
+      <div class="card"><div class="icon">🥊</div><h3><span class="en">Muay Thai</span><span class="fr">Boxe thaï</span></h3></div>
+      <div class="card"><div class="icon">🏃</div><h3><span class="en">Running</span><span class="fr">Course à pied</span></h3></div>
+      <div class="card"><div class="icon">🏊</div><h3><span class="en">Swimming</span><span class="fr">Natation</span></h3></div>
+      <div class="card">
+        <div class="icon">🍳</div>
+        <h3><span class="en">Cooking</span><span class="fr">Cuisine</span></h3>
+        <p class="en">Weekly meal planning and batch cooking.</p>
+        <p class="fr">Planification et préparation des repas de la semaine (batch cooking).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CAREER DEVELOPMENT ================= -->
+  <section class="page" id="page-career">
+    <div class="page-head">
+      <p class="eyebrow"><span class="en">Career development</span><span class="fr">Projet professionnel</span></p>
+      <h1><span class="en">Career project</span><span class="fr">Career project</span></h1>
+      <p><span class="en">Where I want to go, and how I am getting there.</span><span class="fr">Où je veux aller, et comment j'y vais.</span></p>
+    </div>
+
+    <div class="career-banner">
+      <p class="eyebrow" style="color:#f3b47a"><span class="en">My unique value proposition</span><span class="fr">Ma proposition de valeur</span></p>
+      <h3 style="font-size:1.3rem;margin-top:6px"><span class="en">Technical and teaching-minded: bridging data and people.</span><span class="fr">Technique et pédagogue : faire le lien entre la data et les personnes.</span></h3>
+      <p class="en">I want to work at the crossroads of data, AI and people: understanding what data can do, and explaining it to those who need it to make decisions.</p>
+      <p class="fr">Je veux travailler au croisement de la data, de l'IA et de l'humain : comprendre ce que les données permettent, et l'expliquer à ceux qui en ont besoin pour décider.</p>
+    </div>
+
+    <h2><span class="en">Elevator pitch video</span><span class="fr">Pitch vidéo</span></h2>
+    <div class="card placeholder video-box" id="pitch-video">
+      <div>
+        <div style="font-size:2.5rem">🎬</div>
+        <p class="en">My 3-minute career pitch in English (Now · Past · Future)</p>
+        <p class="fr">Mon pitch de 3 minutes en anglais (Now · Past · Future)</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+    </div>
+
+    <h2><span class="en">Target careers</span><span class="fr">Métiers visés</span></h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <span class="tag">Plan A</span>
+        <h3 style="margin-top:8px">Data analyst / Data scientist</h3>
+        <p class="en">Analysing and modelling data to support decisions, with code as a tool rather than an end.</p>
+        <p class="fr">Analyser et modéliser les données pour aider à la décision, avec le code comme outil et non comme finalité.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Plan B</span>
+        <h3 style="margin-top:8px"><span class="en">Data &amp; AI / cybersecurity GRC consultant</span><span class="fr">Consultant data &amp; IA / cybersécurité GRC</span></h3>
+        <p class="en">Advising organisations on how to use data and AI safely and effectively.</p>
+        <p class="fr">Conseiller les organisations pour utiliser la data et l'IA de façon efficace et sécurisée.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Plan C</span>
+        <h3 style="margin-top:8px"><span class="en">Data / AI project manager or product owner</span><span class="fr">Chef de projet ou product owner data / IA</span></h3>
+        <p class="en">Leading data and AI projects between technical teams and end users, after a first experience.</p>
+        <p class="fr">Piloter des projets data et IA entre équipes techniques et utilisateurs, après une première expérience.</p>
+      </div>
+    </div>
+
+    <h2><span class="en">Role models</span><span class="fr">Rôles modèles</span></h2>
+    <p style="color:var(--muted);margin-bottom:14px"><span class="en">Insights from interviews with professionals (via My Job Glasses).</span><span class="fr">Ce que m'ont appris mes entretiens avec des professionnels (via My Job Glasses).</span></p>
+    <div class="grid grid-3" id="role-models">
+      <div class="card placeholder">
+        <span class="tag navy"><span class="en">Role model 1</span><span class="fr">Rôle modèle 1</span></span>
+        <h3 style="margin-top:8px"><span class="en">Interview to come</span><span class="fr">Entretien à venir</span></h3>
+        <p class="en">Career path, daily work, key skills and the advice that shaped my project.</p>
+        <p class="fr">Parcours, quotidien, compétences clés et le conseil qui a fait évoluer mon projet.</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+      <div class="card placeholder">
+        <span class="tag navy"><span class="en">Role model 2</span><span class="fr">Rôle modèle 2</span></span>
+        <h3 style="margin-top:8px"><span class="en">Interview to come</span><span class="fr">Entretien à venir</span></h3>
+        <p class="en">Career path, daily work, key skills and the advice that shaped my project.</p>
+        <p class="fr">Parcours, quotidien, compétences clés et le conseil qui a fait évoluer mon projet.</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+      <div class="card placeholder">
+        <span class="tag navy"><span class="en">Role model 3</span><span class="fr">Rôle modèle 3</span></span>
+        <h3 style="margin-top:8px"><span class="en">Interview to come</span><span class="fr">Entretien à venir</span></h3>
+        <p class="en">Career path, daily work, key skills and the advice that shaped my project.</p>
+        <p class="fr">Parcours, quotidien, compétences clés et le conseil qui a fait évoluer mon projet.</p>
+        <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+      </div>
+    </div>
+
+    <h2><span class="en">International mobility projects</span><span class="fr">Projets de mobilité internationale</span></h2>
+    <div class="card">
+      <p><span class="tag">Chalmers – <span class="en">Sweden</span><span class="fr">Suède</span></span><span class="tag"><span class="en">Milan – Italy</span><span class="fr">Milan – Italie</span></span><span class="tag">Sydney – <span class="en">Australia</span><span class="fr">Australie</span></span></p>
+      <p style="margin-top:8px"><a href="#mobility"><span class="en">See details →</span><span class="fr">Voir le détail →</span></a></p>
+    </div>
+
+    <h2><span class="en">Professional experience</span><span class="fr">Expériences professionnelles</span></h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <p class="meta"><span class="en">Summer 2026 – present</span><span class="fr">Été 2026 – aujourd'hui</span></p>
+        <h3><span class="en">Private maths tutor</span><span class="fr">Professeur particulier de mathématiques</span></h3>
+        <p><span class="en">Self-employed (micro-business)</span><span class="fr">Indépendant (micro-entreprise)</span></p>
+        <ul>
+          <li class="en">Tutoring final-year high school students, tailoring explanations to each one</li>
+          <li class="fr">Accompagnement d'élèves de Terminale, avec des explications adaptées à chacun</li>
+          <li class="en">Running my own micro-business: scheduling and admin</li>
+          <li class="fr">Gestion de ma micro-entreprise : organisation des séances et administratif</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="meta"><span class="en">Sept. 2026 – present</span><span class="fr">Sept. 2026 – aujourd'hui</span></p>
+        <h3><span class="en">Multi-skilled store assistant</span><span class="fr">Employé polyvalent</span></h3>
+        <p>Carrefour City, Toulouse</p>
+        <ul>
+          <li class="en">Checkout, shelf stocking, deliveries and customer service</li>
+          <li class="fr">Encaissement, mise en rayon, réception des livraisons et accueil</li>
+          <li class="en">Autonomy and versatility while studying engineering</li>
+          <li class="fr">Autonomie et polyvalence en parallèle du cycle ingénieur</li>
+        </ul>
+      </div>
+      <div class="card">
+        <p class="meta"><span class="en">Several events</span><span class="fr">Plusieurs prestations</span></p>
+        <h3><span class="en">Catering staff</span><span class="fr">Employé en restauration – traiteur</span></h3>
+        <p>Les Tontons Ripailleurs, Toulouse</p>
+        <ul>
+          <li class="en">Set-up, service and guest welcome at events, in a fast-paced team</li>
+          <li class="fr">Mise en place, service et accueil lors d'événements, en équipe et à un rythme soutenu</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2><span class="en">Internships</span><span class="fr">Stages</span></h2>
+    <div class="card placeholder">
+      <h3><span class="en">First internship – 2027</span><span class="fr">Premier stage – 2027</span></h3>
+      <p class="en">My internships (S6 and S8) will be presented here.</p>
+      <p class="fr">Mes stages (S6 et S8) seront présentés ici.</p>
+      <span class="soon"><span class="en">Coming soon</span><span class="fr">À venir</span></span>
+    </div>
+
+    <h2><span class="en">Documents</span><span class="fr">Documents</span></h2>
+    <div class="actions" style="margin-top:0">
+      <a class="btn btn-outline" href="assets/docs/CV_Jules_Roumegoux_EN.pdf" target="_blank">📄 CV – English</a>
+      <a class="btn btn-outline" href="assets/docs/CV_Jules_Roumegoux_FR.pdf" target="_blank">📄 CV – Français</a>
+      <a class="btn btn-outline" href="#" title="LinkedIn – coming soon">in LinkedIn <span class="en">(coming soon)</span><span class="fr">(à venir)</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 Jules Roumegoux · ENSEEIHT (Toulouse INP) ·
+  <a href="mailto:julesroum7@gmail.com">julesroum7@gmail.com</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
